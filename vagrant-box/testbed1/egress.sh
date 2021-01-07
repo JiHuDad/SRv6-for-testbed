@@ -28,7 +28,7 @@ ip -6 route add 2::/64 via 2:3::2
 # Instal srext
 #git clone https://github.com/netgroup/SRv6-net-prog
 git clone https://github.com/JiHuDad/SRv6-for-testbed.git
-cd SRv6-net-prog/srext/
+cd SRv6-for-testbed/srext/
 sudo make && sudo make install && depmod -a
 
 exit
